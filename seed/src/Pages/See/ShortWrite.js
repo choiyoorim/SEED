@@ -7,7 +7,6 @@ import './ShortWrite.css'
 function ShortWrite(number){
     return(
         <>
-            <Navi></Navi>
             <div className="Write_main">
                 <input className="movie-search" type='text' placeholder='Search'/>
                 <div className="select-button-wrap">

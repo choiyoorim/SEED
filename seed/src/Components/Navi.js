@@ -1,53 +1,12 @@
-<<<<<<< HEAD
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './Navi.css'
-import toc from './Logo/toc-white-18dp.svg'
-
-class Navi extends Component {
-    render(){
-       return (
-            <header>
-                <div class="menu_wrapper">
-                    <button type="button" class="btn_toc">
-                    <img id= "toc_img" src={toc} width="30" height="30"/>
-                    </button>
-                    <Link to="/"><h1 class="logo">seed</h1></Link>
-                    <nav>
-                        <ul class="menu">
-                            <Link to="/see"><li>SEE</li></Link>
-                            <Link to="/like"><li>LIKE</li></Link>
-                            <Link to="/mypage"><li>MY PAGE</li></Link>
-                        </ul>
-
-                        <Link to="/login"><button class="btn" id="loginBtn">Login</button></Link>
-                        <Link to="/signup"><button class="btn" id="signupBtn">Sign up</button></Link>
-                    </nav>
-                    <div class="user">
-                        {/* <p id = "user_name">Seed님</p> */}
-                        {/* <img id = "user_img" src={require("frog-5319326_1920.jpg")} width="40" height="40"/> */}
-                    </div>
-                </div>
-            </header>
-       );
-     }
-   }
-
-   export default Navi;
-=======
 import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { SideBar } from './SideBar';
-import { BrowserRouter as Route } from 'react-router-dom';
-import See from '../See/see_main';
-import Like from '../Like/like_main';
-import Mypage from '../Mypage/mypage_main';
-import './Navi.css';
-import '../components/color.css'
-import user from '../components/frog-5319326_1920.jpg';
+import '../Components/Navi.css';
+import '../Components/color.css';
+import user from '../Components/img/googleLogin.png';
 
 function Navi() {
   const [sidebar, setSidebar] = useState(false);
@@ -66,9 +25,9 @@ function Navi() {
           <div>
             <h1 class="logo">Seed Logo</h1>
             <ul class="menu">
-              <li><Link to="/See/see_main.js">See</Link></li>
-              <li><Link to="/Like/like_main.js">Like</Link></li>
-              <li><Link to="/Mypage/mypage_main.js ">MyPage</Link></li>
+              <li><Link to="/see">See</Link></li>
+              <li><Link to="/like">Like</Link></li>
+              <li><Link to="/mypage">MyPage</Link></li>
             </ul>
             <div class = "user">
               <p id = "user_name">Seed님</p>
@@ -112,12 +71,8 @@ function Navi() {
         </IconContext.Provider>
         
       </div>
-      <Route path="/See" exact={true} component={See} />
-      <Route path="/Like" component={Like} />
-      <Route path="/Mypage" component={Mypage} />
     </div>
     
   );
 }
 export default Navi;
->>>>>>> e7ddcada45d664cd03d312048ca308a5243faedb

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import './Signup.css';
+import 'src\Components\Signup\Signup.css';
 import Navi from '../Navi';
 import googleIcon from '../img/googleLogin.png';
 

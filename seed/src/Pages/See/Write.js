@@ -10,7 +10,6 @@ import BasicButtonGroup from "../../Components/SelectButton";
 function Write(){
         return(
             <>
-                <Navi></Navi>
                 <section>
                     <div className="Write_main">
                         <input className="movie-search" type='text' placeholder='Search'/>
