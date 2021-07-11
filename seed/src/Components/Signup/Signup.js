@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './Signup.css';
 import Navi from '../Navi';
 import googleIcon from '../img/googleLogin.png';
@@ -26,7 +27,7 @@ function Signup(){
                         <button type="submit" id="signupSubmitBtn">Sign up</button>
                         <p id="orpara">─────────────　OR　─────────────</p>
                         <button id="googleSignup"><img src={googleIcon} id="googleIcon"/>Google로 회원 가입하기</button>
-                        <p id="loginpara">Already have a account?<b id="gologin">　Log in</b></p>
+                        <p id="loginpara">Already have a account?<Link to="/login"><b id="gologin">　Log in</b></Link></p>
                         {/* <p class="headLine">ID   </p>
                         <input name="id" type="text" id="id"/><br/>
                         <p class="headLine">PW</p>

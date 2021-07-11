@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# SEED
+
+
+## Front-end
+
+### Login 
+heejin
+![Login page](https://user-images.githubusercontent.com/69781566/125183156-371eef00-e24f-11eb-968f-33ce47722fff.png)
+
+
+
+### Sign up
+heejin
+![Signup page](https://user-images.githubusercontent.com/69781566/125183159-40a85700-e24f-11eb-86f5-db080cf677e9.png)
+
+
+
+### Find id/password
+heejin
+![Find page](https://user-images.githubusercontent.com/69781566/125183164-4867fb80-e24f-11eb-853b-bd510a8c6b27.png)
+
+
+
+### Member info
+heejin
+>>>>>>> fa706bc1577c8656e5ba145cab40f3f501d6753f

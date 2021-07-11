@@ -32,12 +32,13 @@ input{
 
 .signupBox{
     background-color: white;
-    width: 60%;
+    width: 50%;
     height:50%;
     text-align: center;
     border: 1px solid black;
     margin: 0px auto;
     border-radius: 30px;
+    padding-bottom: 30px;
 }
 
 .inputField{
