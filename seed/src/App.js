@@ -1,7 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
 import './Components/Navi.css'
-import Layout from './Components/Layout'
 
 import{
   HashRouter,
