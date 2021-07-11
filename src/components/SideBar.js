@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IoCreateOutline } from "react-icons/io5";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoNotifications } from "react-icons/io5";
@@ -11,7 +12,7 @@ export const SideBar = [
     title: '내 Seed',
     path: '/Mypage',
     icon: <IoHomeSharp />,
-    cName: 'nav-text first-li'
+    cName: 'nav-text'
   },
   {
     title: '글쓰기',

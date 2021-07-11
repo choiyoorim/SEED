@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { SideBar } from './SideBar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Route } from 'react-router-dom';
 import See from '../See/see_main';
 import Like from '../Like/like_main';
 import Mypage from '../Mypage/mypage_main';
